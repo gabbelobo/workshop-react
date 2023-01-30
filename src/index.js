@@ -5,7 +5,5 @@ import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Aulas.Aula4 />
-  </React.StrictMode>
+  <Aulas.Aula5 />
 );

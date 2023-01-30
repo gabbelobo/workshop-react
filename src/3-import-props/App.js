@@ -1,12 +1,13 @@
 import React from 'react'
 import Botao from './Components/Botao'
+import Card from './Components/Card'
 
 const App = () => {
     return (
-        <div>
+        <Card>
             <Botao texto={"Login"}/>
             <Botao texto={"Logout"}/>
-        </div>
+        </Card>
     )
 }
 
